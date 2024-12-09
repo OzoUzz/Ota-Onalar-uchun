@@ -1,13 +1,37 @@
-ul{
-    list-style: none;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+ul {
+  list-style: none;
 }
-a{
-    text-decoration: none;
+ol {
+  list-style: none;
 }
-button{
-    cursor: pointer;
+a {
+  text-decoration: none;
+  color: black;
 }
-.container{
-    width: 1500px;
-    margin: 0 auto;
+button {
+  cursor: pointer;
+}
+.container {
+  width: 1500px;
+  margin: 0 auto;
+}
+.bi {
+  color: white;
+}
+html{
+  background-color: #2B2B2B;
+}
+.btn{
+  padding: 19px 50px;
+  border-radius: 20px;
+  border: none;
+  background-color: #A259FF;
+}
+.btn2{
+  padding: 19px 50px;
+  border-radius: 20px;
+  border: 2px solid #A259FF;
+  background-color: #2B2B2B;
+  color: white;
 }
