@@ -22,6 +22,8 @@
   border-radius: 20px;
   color: white;
   font-family: WorkSans-def;
+  height: 12px;
+  width: 4.5%;
 }
 .bi-person {
   color: white;
@@ -32,4 +34,48 @@ header {
 }
 .header__menu-link{
   color: white;
+}
+@media screen and (max-width:480px){
+  .header__wrapper{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__menus{
+    display: none;
+  }
+  .header__menu-link4{
+    height: 10px;
+    width: 110px;
+    transform: translate(60px,0);
+    margin-left: 7px;
+  }
+  .sec1-right{
+    transform: scale(.6);
+  }
+  .sec1-left{
+    transform: scale(0.8);
+    margin-top: -170px;
+    margin-left: 43.5px;
+  }
+  .section-one__wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    margin-top: -140px;
+    margin-left: -35px;
+  }
+  .sec2__title{
+    margin-left: -115px;
+    margin-top: -100px;
+  }
+  .sec2__menus{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    transform: translate(-150px,0);
+  }
+  .item2{
+    transform: translate(-435px,550px);
+  }
 }

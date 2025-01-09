@@ -1,9 +1,31 @@
 .section-four{
     margin: 200px 0;
+    font-family: WorkSans-def;
 }
 .section-four__wrapper{
     margin: 0 100px;
 }
-.sect4__title{
+.sec4__title{
     color: white;
+}
+.sec4__item-img{
+    filter: blur(0.2rem);
+}
+.sec4__item-title-img{
+    transform: translate(80px,-180px);
+}
+.sec4__item{
+    background-color: #3B3B3B;
+    width: 240px;
+    height: 320px;
+    border-radius: 20px;
+}
+.sec4__item-title{
+    color: white;
+    transform: translate(20px,-90px);
+}
+.sec4__menu{
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
 }
