@@ -78,9 +78,21 @@ header {
   .item2{
     transform: translate(-865px,550px)
   }
+  .sec3__title{
+    transform: translate(-100px,490px);
+  }
   .sec3__item{
-    transform: translate(0,800px);
+    transform: translate(-80px,480px);
   }.section-four__wrapper{
-    margin-top: 1000px;
+    transform: translate(-60px,350px);
+  }
+  .sec4__item{
+    transform: translate(-50px,0);
+  }
+  body{
+    overflow:hidden;
+  }
+  .container{
+    max-width: 480px;
   }
 }
