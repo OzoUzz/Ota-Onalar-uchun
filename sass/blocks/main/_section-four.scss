@@ -1,22 +1,24 @@
 .section-four{
-    margin: 200px 0;
+    margin: 0px 0;
     font-family: WorkSans-def;
+    max-width: 340px;
 }
 .section-four__wrapper{
-    margin: 0 100px;
+    margin: 0 0px;
 }
 .sec4__title{
     color: white;
 }
 .sec4__item-img{
     filter: blur(0.2rem);
+    max-width: 340px;
 }
 .sec4__item-title-img{
     transform: translate(80px,-180px);
 }
 .sec4__item{
     background-color: #3B3B3B;
-    width: 240px;
+    max-width: 240px;
     height: 320px;
     border-radius: 20px;
 }
@@ -27,5 +29,5 @@
 .sec4__menu{
     display: flex;
     justify-content: space-between;
-    width: 1150px;
+    max-width: 340px;
 }

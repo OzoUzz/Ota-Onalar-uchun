@@ -104,7 +104,7 @@ header {
   .sec2__menus {
     display: flex;
     justify-content: center;
-    width: 300px;
+    max-width: 300px;
     transform: translate(-150px, 0);
   }
   .item2 {
@@ -122,17 +122,49 @@ header {
   .sec4__item {
     transform: translate(-50px, 0);
   }
-  body {
-    overflow: hidden;
+  .section-two {
+    transform: translate(30px, 0);
+  }
+  .section-three {
+    transform: translate(0, -550px);
+  }
+  .section-four {
+    transform: translate(140px, -450px);
   }
   .container {
     max-width: 480px;
+  }
+  .sec4__title {
+    transform: translate(-800px, 0);
+  }
+  .sec2__menus {
+    max-width: 340px;
+  }
+  .sec2__wrapper {
+    max-width: 340px;
+  }
+  .sec4__menu {
+    max-width: 340px;
+  }
+  .sec4__item-img {
+    max-width: 340px;
+  }
+  .sec4__item {
+    max-width: 340px;
+  }
+  .section-four__wrapper {
+    max-width: 340px;
+  }
+  .sec2__menu-item {
+    margin-left: 100px;
+  }
+  body {
+    transform: translate(-30px, 0);
   }
 }
 .sec1-left__title {
   color: white;
   font-size: 50px;
-  width: 350px;
 }
 
 .section-one__wrapper {
@@ -147,19 +179,16 @@ header {
 
 .sec1-left__info {
   color: white;
-  width: 350px;
 }
 
 .sec1-left__bottom {
   display: flex;
   justify-content: space-around;
-  width: 300px;
 }
 
 .sec1-right__img-box {
   background: #3B3B3B;
   height: 500px;
-  width: 510px;
   border-radius: 20px;
 }
 
@@ -198,8 +227,8 @@ header {
 }
 
 .sec2__menus {
-  width: 1200px;
-  margin-left: 110px;
+  max-width: 340px;
+  margin-left: 0px;
   display: flex;
   justify-content: space-between;
 }
@@ -207,7 +236,7 @@ header {
 .sec2__item-bottom-pics {
   display: flex;
   justify-content: space-between;
-  width: 328px;
+  max-width: 328px;
 }
 
 .s2__item-avatar {
@@ -241,7 +270,6 @@ header {
 }
 
 .sec3__item {
-  width: 240px;
   height: 260px;
   padding: 20px 0px 0px 0px;
   gap: 20px;
@@ -283,18 +311,18 @@ header {
 }
 
 .sec3__menus {
-  width: 1200px;
   display: flex;
   justify-content: space-between;
 }
 
 .section-four {
-  margin: 200px 0;
+  margin: 0px 0;
   font-family: WorkSans-def;
+  max-width: 340px;
 }
 
 .section-four__wrapper {
-  margin: 0 100px;
+  margin: 0 0px;
 }
 
 .sec4__title {
@@ -303,6 +331,7 @@ header {
 
 .sec4__item-img {
   filter: blur(0.2rem);
+  max-width: 340px;
 }
 
 .sec4__item-title-img {
@@ -311,7 +340,7 @@ header {
 
 .sec4__item {
   background-color: #3B3B3B;
-  width: 240px;
+  max-width: 240px;
   height: 320px;
   border-radius: 20px;
 }
@@ -324,7 +353,7 @@ header {
 .sec4__menu {
   display: flex;
   justify-content: space-between;
-  width: 1150px;
+  max-width: 340px;
 }
 
 ul {
@@ -345,7 +374,7 @@ button {
 }
 
 .container {
-  max-width: 1500px;
+  max-width: 300px;
   margin: 0 auto;
 }
 

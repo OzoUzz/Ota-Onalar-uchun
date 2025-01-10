@@ -14,15 +14,15 @@
     margin-left: 150px;
 }
 .sec2__menus{
-    width: 1200px;
-    margin-left: 110px;
+    max-width: 340px;
+    margin-left: 0px;
     display: flex;
     justify-content: space-between;
 }
 .sec2__item-bottom-pics{
     display: flex;
     justify-content: space-between;
-    width: 328px;
+    max-width: 328px;
 }
 .s2__item-avatar{
     display: flex;

@@ -1,7 +1,6 @@
 .sec1-left__title {
   color: white;
   font-size: 50px;
-  width: 350px;
 }
 
 .section-one__wrapper {
@@ -16,19 +15,16 @@
 
 .sec1-left__info {
   color: white;
-  width: 350px;
 }
 
 .sec1-left__bottom {
   display: flex;
   justify-content: space-around;
-  width: 300px;
 }
 
 .sec1-right__img-box {
   background: #3B3B3B;
   height: 500px;
-  width: 510px;
   border-radius: 20px;
 }
 
@@ -67,8 +63,8 @@
 }
 
 .sec2__menus {
-  width: 1200px;
-  margin-left: 110px;
+  max-width: 340px;
+  margin-left: 0px;
   display: flex;
   justify-content: space-between;
 }
@@ -76,7 +72,7 @@
 .sec2__item-bottom-pics {
   display: flex;
   justify-content: space-between;
-  width: 328px;
+  max-width: 328px;
 }
 
 .s2__item-avatar {
@@ -110,7 +106,6 @@
 }
 
 .sec3__item {
-  width: 240px;
   height: 260px;
   padding: 20px 0px 0px 0px;
   gap: 20px;
@@ -152,18 +147,18 @@
 }
 
 .sec3__menus {
-  width: 1200px;
   display: flex;
   justify-content: space-between;
 }
 
 .section-four {
-  margin: 200px 0;
+  margin: 0px 0;
   font-family: WorkSans-def;
+  max-width: 340px;
 }
 
 .section-four__wrapper {
-  margin: 0 100px;
+  margin: 0 0px;
 }
 
 .sec4__title {
@@ -172,6 +167,7 @@
 
 .sec4__item-img {
   filter: blur(0.2rem);
+  max-width: 340px;
 }
 
 .sec4__item-title-img {
@@ -180,7 +176,7 @@
 
 .sec4__item {
   background-color: #3B3B3B;
-  width: 240px;
+  max-width: 240px;
   height: 320px;
   border-radius: 20px;
 }
@@ -193,5 +189,5 @@
 .sec4__menu {
   display: flex;
   justify-content: space-between;
-  width: 1150px;
+  max-width: 340px;
 }/*# sourceMappingURL=main.css.map */
