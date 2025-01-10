@@ -160,7 +160,7 @@ header {
   }
   body {
     transform: translate(-30px, 0);
-    transform: scaleX(1.04);
+    transform: scaleX(0.9);
   }
   .sec1-right__img-title {
     width: 300px;
